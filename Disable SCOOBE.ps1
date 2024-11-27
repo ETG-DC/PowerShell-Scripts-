@@ -1,0 +1,3 @@
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" -Name "SubscribedContent-338389Enabled" -Value 0 # Disable "Get tips, tricks, and suggestions"
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" -Name "SubscribedContent-310093Enabled" -Value 0 # Disable "Show me the Windows welcome expereince after updates and occasionally when I sign in to highlight what's new and suggested"
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement" -Name "ScoobeSystemSettingEnabled" -Value 0 # Disable "Suggest ways I can finish setting my up my device to get the most out of Windows"
