@@ -1,6 +1,6 @@
 <#
 .Synopsis
-This script runs based off the automated remediation in Syncro called "Automated Bitdefender Installation"
+This script runs based off the automated remediation we have configured in Syncro called "Automated Bitdefender Installation"
 
 .Description
 The "Confirm Bitdefender Installation.ps1" script checks if Bitdefender is installed. If it's not, it triggers an RMM alert with the message:
